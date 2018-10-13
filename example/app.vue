@@ -45,7 +45,7 @@ export default {
 </script>
 
 <template>
-<div>
+<div style="margin-left: 200px">
   <p v-for="item in ['before', 'sticky', 'enabled']" :key="item">{{ item }}</p>
 
   <div v-sticky="{ zIndex: 100, stickyTop: 20, className: 'sticky-buttons' }">
